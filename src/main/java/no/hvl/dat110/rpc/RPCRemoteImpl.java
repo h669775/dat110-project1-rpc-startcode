@@ -1,3 +1,4 @@
+
 package no.hvl.dat110.rpc;
 
 // RPC server-side method implementations must extend this class

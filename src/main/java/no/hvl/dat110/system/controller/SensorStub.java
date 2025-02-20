@@ -1,6 +1,6 @@
+
 package no.hvl.dat110.system.controller;
 
-import no.hvl.dat110.TODO;
 import no.hvl.dat110.rpc.*;
 
 public class SensorStub extends RPCLocalStub {

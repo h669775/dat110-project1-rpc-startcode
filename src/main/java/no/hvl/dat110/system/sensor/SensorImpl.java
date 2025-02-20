@@ -1,3 +1,4 @@
+
 package no.hvl.dat110.system.sensor;
 
 import no.hvl.dat110.rpc.RPCRemoteImpl;

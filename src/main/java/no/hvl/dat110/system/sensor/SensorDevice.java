@@ -1,3 +1,4 @@
+
 package no.hvl.dat110.system.sensor;
 
 import no.hvl.dat110.rpc.RPCServer;
@@ -13,7 +14,12 @@ public class SensorDevice {
 
 		SensorImpl sensor = new SensorImpl((byte)Common.READ_RPCID,sensorserver);
 		
-		sensorserver.run();
+		try {
+			sensorserver.run();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		sensorserver.stop();
 		

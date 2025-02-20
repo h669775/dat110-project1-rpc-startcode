@@ -1,3 +1,4 @@
+
 package no.hvl.dat110.rpc;
 
 // RPC client-side (local) stubs must extend this class
